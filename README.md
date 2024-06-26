@@ -1,11 +1,37 @@
-# typescript-sandbox
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+- Primer ejercicio:
 
-Pasos:
+  La función calcular ticket me tiene que devolver:
 
-- Clonate el proyecto.
-- Instala las dependencias con `npm install`.
-- Ejecuta el sandbox con `npm run dev`.
-- Abre el navegador en `http://localhost:5173/` (si ese puerto no te funciona, mira en la consola donde has hecho el build, puede que este ocupado y se haya abierto en otro puerto).
-- Puedes empezar a meter tu código en el fichero:
+    interface ResultadoLineaTicket {
+    nombre: string;
+    cantidad: number;
+    precionSinIva: number;
+    tipoIva: TipoIva;
+    precioConIva: number;
+  }
+
+
+
+
+  const ticketFinal = 
+    {
+      lineas: [{
+        nombre: string;
+        cantidad: number;
+        precionSinIva: number;
+        tipoIva: TipoIva;
+        precioConIva: number;
+      }];
+      total: 
+      {
+        totalSinIva: number;
+        totalConIva: number;
+        totalIva: number;
+        }
+      desgloseIva: [{
+        tipoIva: TipoIva;
+        cuantia : number;
+      }];
+    }
+  
